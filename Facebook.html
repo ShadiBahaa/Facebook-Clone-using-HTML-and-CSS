@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Resources/favfac.png">
+    <link rel="stylesheet" href="Facebook.css">
+    <title>Facebook</title>
+</head>
+
+<body>
+    <div class="header flex">
+        <div class="flex-item flex" id="not" style="width: 25%;">
+            <button class="circ"><svg viewBox="0 0 28 28" alt="" class="a8c37x1j ms05siws l3qrxjdp b7h9ocf4 q66pz984"
+                    fill="white" height="20" width="20">
+                    <path
+                        d="M14 2.042c6.76 0 12 4.952 12 11.64S20.76 25.322 14 25.322a13.091 13.091 0 0 1-3.474-.461.956 .956 0 0 0-.641.047L7.5 25.959a.961.961 0 0 1-1.348-.849l-.065-2.134a.957.957 0 0 0-.322-.684A11.389 11.389 0 0 1 2 13.682C2 6.994 7.24 2.042 14 2.042ZM6.794 17.086a.57.57 0 0 0 .827.758l3.786-2.874a.722.722 0 0 1 .868 0l2.8 2.1a1.8 1.8 0 0 0 2.6-.481l3.525-5.592a.57.57 0 0 0-.827-.758l-3.786 2.874a.722.722 0 0 1-.868 0l-2.8-2.1a1.8 1.8 0 0 0-2.6.481Z">
+                    </path>
+                </svg></button>
+            <button class="circ"><svg viewBox="0 0 28 28" alt="" class="a8c37x1j ms05siws l3qrxjdp b7h9ocf4 q66pz984"
+                    fill="white" height="20" width="20">
+                    <path
+                        d="M14 2.042c6.76 0 12 4.952 12 11.64S20.76 25.322 14 25.322a13.091 13.091 0 0 1-3.474-.461.956 .956 0 0 0-.641.047L7.5 25.959a.961.961 0 0 1-1.348-.849l-.065-2.134a.957.957 0 0 0-.322-.684A11.389 11.389 0 0 1 2 13.682C2 6.994 7.24 2.042 14 2.042ZM6.794 17.086a.57.57 0 0 0 .827.758l3.786-2.874a.722.722 0 0 1 .868 0l2.8 2.1a1.8 1.8 0 0 0 2.6-.481l3.525-5.592a.57.57 0 0 0-.827-.758l-3.786 2.874a.722.722 0 0 1-.868 0l-2.8-2.1a1.8 1.8 0 0 0-2.6.481Z">
+                    </path>
+                </svg></button>
+            <button class="circ"><svg viewBox="0 0 28 28" alt="" class="a8c37x1j ms05siws l3qrxjdp b7h9ocf4 q66pz984"
+                    fill="white" height="20" width="20">
+                    <path
+                        d="M14 2.042c6.76 0 12 4.952 12 11.64S20.76 25.322 14 25.322a13.091 13.091 0 0 1-3.474-.461.956 .956 0 0 0-.641.047L7.5 25.959a.961.961 0 0 1-1.348-.849l-.065-2.134a.957.957 0 0 0-.322-.684A11.389 11.389 0 0 1 2 13.682C2 6.994 7.24 2.042 14 2.042ZM6.794 17.086a.57.57 0 0 0 .827.758l3.786-2.874a.722.722 0 0 1 .868 0l2.8 2.1a1.8 1.8 0 0 0 2.6-.481l3.525-5.592a.57.57 0 0 0-.827-.758l-3.786 2.874a.722.722 0 0 1-.868 0l-2.8-2.1a1.8 1.8 0 0 0-2.6.481Z">
+                    </path>
+                </svg></button>
+            <button class="circ" onclick="alert('done')"><svg viewBox="0 0 28 28" alt=""
+                    class="a8c37x1j ms05siws l3qrxjdp b7h9ocf4 q66pz984" fill="white" height="20" width="20">
+                    <path
+                        d="M14 2.042c6.76 0 12 4.952 12 11.64S20.76 25.322 14 25.322a13.091 13.091 0 0 1-3.474-.461.956 .956 0 0 0-.641.047L7.5 25.959a.961.961 0 0 1-1.348-.849l-.065-2.134a.957.957 0 0 0-.322-.684A11.389 11.389 0 0 1 2 13.682C2 6.994 7.24 2.042 14 2.042ZM6.794 17.086a.57.57 0 0 0 .827.758l3.786-2.874a.722.722 0 0 1 .868 0l2.8 2.1a1.8 1.8 0 0 0 2.6-.481l3.525-5.592a.57.57 0 0 0-.827-.758l-3.786 2.874a.722.722 0 0 1-.868 0l-2.8-2.1a1.8 1.8 0 0 0-2.6.481Z">
+                    </path>
+                </svg></button>
+            <button id="prof"><span>Shady B.Ibrahim</span><img
+                    src="Resources/me.jpg"
+                    alt="" height="30px"></button>
+        </div>
+        <div class="flex-item flex" id="cat" style="width: 50%;">
+            <button class="rect"><svg viewBox="0 0 28 28" class="a8c37x1j ms05siws l3qrxjdp b7h9ocf4 py1f6qlh"
+                    fill="white" height="28" width="28">
+                    <path
+                        d="M25.5 14C25.5 7.649 20.351 2.5 14 2.5 7.649 2.5 2.5 7.649 2.5 14 2.5 20.351 7.649 25.5 14 25.5 20.351 25.5 25.5 20.351 25.5 14ZM27 14C27 21.18 21.18 27 14 27 6.82 27 1 21.18 1 14 1 6.82 6.82 1 14 1 21.18 1 27 6.82 27 14ZM7.479 14 7.631 14C7.933 14 8.102 14.338 7.934 14.591 7.334 15.491 6.983 16.568 6.983 17.724L6.983 18.221C6.983 18.342 6.99 18.461 7.004 18.578 7.03 18.802 6.862 19 6.637 19L6.123 19C5.228 19 4.5 18.25 4.5 17.327 4.5 15.492 5.727 14 7.479 14ZM20.521 14C22.274 14 23.5 15.492 23.5 17.327 23.5 18.25 22.772 19 21.878 19L21.364 19C21.139 19 20.97 18.802 20.997 18.578 21.01 18.461 21.017 18.342 21.017 18.221L21.017 17.724C21.017 16.568 20.667 15.491 20.067 14.591 19.899 14.338 20.067 14 20.369 14L20.521 14ZM8.25 13C7.147 13 6.25 11.991 6.25 10.75 6.25 9.384 7.035 8.5 8.25 8.5 9.465 8.5 10.25 9.384 10.25 10.75 10.25 11.991 9.353 13 8.25 13ZM19.75 13C18.647 13 17.75 11.991 17.75 10.75 17.75 9.384 18.535 8.5 19.75 8.5 20.965 8.5 21.75 9.384 21.75 10.75 21.75 11.991 20.853 13 19.75 13ZM15.172 13.5C17.558 13.5 19.5 15.395 19.5 17.724L19.5 18.221C19.5 19.202 18.683 20 17.677 20L10.323 20C9.317 20 8.5 19.202 8.5 18.221L8.5 17.724C8.5 15.395 10.441 13.5 12.828 13.5L15.172 13.5ZM16.75 9C16.75 10.655 15.517 12 14 12 12.484 12 11.25 10.655 11.25 9 11.25 7.15 12.304 6 14 6 15.697 6 16.75 7.15 16.75 9Z">
+                    </path>
+                </svg></button>
+            <button class="rect"><svg viewBox="0 0 28 28" class="a8c37x1j ms05siws l3qrxjdp b7h9ocf4 py1f6qlh"
+                    fill="white" height="28" width="28">
+                    <path
+                        d="M25.5 14C25.5 7.649 20.351 2.5 14 2.5 7.649 2.5 2.5 7.649 2.5 14 2.5 20.351 7.649 25.5 14 25.5 20.351 25.5 25.5 20.351 25.5 14ZM27 14C27 21.18 21.18 27 14 27 6.82 27 1 21.18 1 14 1 6.82 6.82 1 14 1 21.18 1 27 6.82 27 14ZM7.479 14 7.631 14C7.933 14 8.102 14.338 7.934 14.591 7.334 15.491 6.983 16.568 6.983 17.724L6.983 18.221C6.983 18.342 6.99 18.461 7.004 18.578 7.03 18.802 6.862 19 6.637 19L6.123 19C5.228 19 4.5 18.25 4.5 17.327 4.5 15.492 5.727 14 7.479 14ZM20.521 14C22.274 14 23.5 15.492 23.5 17.327 23.5 18.25 22.772 19 21.878 19L21.364 19C21.139 19 20.97 18.802 20.997 18.578 21.01 18.461 21.017 18.342 21.017 18.221L21.017 17.724C21.017 16.568 20.667 15.491 20.067 14.591 19.899 14.338 20.067 14 20.369 14L20.521 14ZM8.25 13C7.147 13 6.25 11.991 6.25 10.75 6.25 9.384 7.035 8.5 8.25 8.5 9.465 8.5 10.25 9.384 10.25 10.75 10.25 11.991 9.353 13 8.25 13ZM19.75 13C18.647 13 17.75 11.991 17.75 10.75 17.75 9.384 18.535 8.5 19.75 8.5 20.965 8.5 21.75 9.384 21.75 10.75 21.75 11.991 20.853 13 19.75 13ZM15.172 13.5C17.558 13.5 19.5 15.395 19.5 17.724L19.5 18.221C19.5 19.202 18.683 20 17.677 20L10.323 20C9.317 20 8.5 19.202 8.5 18.221L8.5 17.724C8.5 15.395 10.441 13.5 12.828 13.5L15.172 13.5ZM16.75 9C16.75 10.655 15.517 12 14 12 12.484 12 11.25 10.655 11.25 9 11.25 7.15 12.304 6 14 6 15.697 6 16.75 7.15 16.75 9Z">
+                    </path>
+                </svg></button>
+            <button class="rect"><svg viewBox="0 0 28 28" class="a8c37x1j ms05siws l3qrxjdp b7h9ocf4 py1f6qlh"
+                    fill="white" height="28" width="28">
+                    <path
+                        d="M25.5 14C25.5 7.649 20.351 2.5 14 2.5 7.649 2.5 2.5 7.649 2.5 14 2.5 20.351 7.649 25.5 14 25.5 20.351 25.5 25.5 20.351 25.5 14ZM27 14C27 21.18 21.18 27 14 27 6.82 27 1 21.18 1 14 1 6.82 6.82 1 14 1 21.18 1 27 6.82 27 14ZM7.479 14 7.631 14C7.933 14 8.102 14.338 7.934 14.591 7.334 15.491 6.983 16.568 6.983 17.724L6.983 18.221C6.983 18.342 6.99 18.461 7.004 18.578 7.03 18.802 6.862 19 6.637 19L6.123 19C5.228 19 4.5 18.25 4.5 17.327 4.5 15.492 5.727 14 7.479 14ZM20.521 14C22.274 14 23.5 15.492 23.5 17.327 23.5 18.25 22.772 19 21.878 19L21.364 19C21.139 19 20.97 18.802 20.997 18.578 21.01 18.461 21.017 18.342 21.017 18.221L21.017 17.724C21.017 16.568 20.667 15.491 20.067 14.591 19.899 14.338 20.067 14 20.369 14L20.521 14ZM8.25 13C7.147 13 6.25 11.991 6.25 10.75 6.25 9.384 7.035 8.5 8.25 8.5 9.465 8.5 10.25 9.384 10.25 10.75 10.25 11.991 9.353 13 8.25 13ZM19.75 13C18.647 13 17.75 11.991 17.75 10.75 17.75 9.384 18.535 8.5 19.75 8.5 20.965 8.5 21.75 9.384 21.75 10.75 21.75 11.991 20.853 13 19.75 13ZM15.172 13.5C17.558 13.5 19.5 15.395 19.5 17.724L19.5 18.221C19.5 19.202 18.683 20 17.677 20L10.323 20C9.317 20 8.5 19.202 8.5 18.221L8.5 17.724C8.5 15.395 10.441 13.5 12.828 13.5L15.172 13.5ZM16.75 9C16.75 10.655 15.517 12 14 12 12.484 12 11.25 10.655 11.25 9 11.25 7.15 12.304 6 14 6 15.697 6 16.75 7.15 16.75 9Z">
+                    </path>
+                </svg></button>
+            <button class="rect"><svg viewBox="0 0 28 28" class="a8c37x1j ms05siws l3qrxjdp b7h9ocf4 py1f6qlh"
+                    fill="white" height="28" width="28">
+                    <path
+                        d="M25.5 14C25.5 7.649 20.351 2.5 14 2.5 7.649 2.5 2.5 7.649 2.5 14 2.5 20.351 7.649 25.5 14 25.5 20.351 25.5 25.5 20.351 25.5 14ZM27 14C27 21.18 21.18 27 14 27 6.82 27 1 21.18 1 14 1 6.82 6.82 1 14 1 21.18 1 27 6.82 27 14ZM7.479 14 7.631 14C7.933 14 8.102 14.338 7.934 14.591 7.334 15.491 6.983 16.568 6.983 17.724L6.983 18.221C6.983 18.342 6.99 18.461 7.004 18.578 7.03 18.802 6.862 19 6.637 19L6.123 19C5.228 19 4.5 18.25 4.5 17.327 4.5 15.492 5.727 14 7.479 14ZM20.521 14C22.274 14 23.5 15.492 23.5 17.327 23.5 18.25 22.772 19 21.878 19L21.364 19C21.139 19 20.97 18.802 20.997 18.578 21.01 18.461 21.017 18.342 21.017 18.221L21.017 17.724C21.017 16.568 20.667 15.491 20.067 14.591 19.899 14.338 20.067 14 20.369 14L20.521 14ZM8.25 13C7.147 13 6.25 11.991 6.25 10.75 6.25 9.384 7.035 8.5 8.25 8.5 9.465 8.5 10.25 9.384 10.25 10.75 10.25 11.991 9.353 13 8.25 13ZM19.75 13C18.647 13 17.75 11.991 17.75 10.75 17.75 9.384 18.535 8.5 19.75 8.5 20.965 8.5 21.75 9.384 21.75 10.75 21.75 11.991 20.853 13 19.75 13ZM15.172 13.5C17.558 13.5 19.5 15.395 19.5 17.724L19.5 18.221C19.5 19.202 18.683 20 17.677 20L10.323 20C9.317 20 8.5 19.202 8.5 18.221L8.5 17.724C8.5 15.395 10.441 13.5 12.828 13.5L15.172 13.5ZM16.75 9C16.75 10.655 15.517 12 14 12 12.484 12 11.25 10.655 11.25 9 11.25 7.15 12.304 6 14 6 15.697 6 16.75 7.15 16.75 9Z">
+                    </path>
+                </svg></button>
+            <button class="rect" style="border-bottom: 5px solid #2374E1;"><svg viewBox="0 0 28 28"
+                    class="a8c37x1j ms05siws l3qrxjdp b7h9ocf4 g28tu32o" fill="#2374E1" height="28" width="28">
+                    <path
+                        d="M25.825 12.29C25.824 12.289 25.823 12.288 25.821 12.286L15.027 2.937C14.752 2.675 14.392 2.527 13.989 2.521 13.608 2.527 13.248 2.675 13.001 2.912L2.175 12.29C1.756 12.658 1.629 13.245 1.868 13.759 2.079 14.215 2.567 14.479 3.069 14.479L5 14.479 5 23.729C5 24.695 5.784 25.479 6.75 25.479L11 25.479C11.552 25.479 12 25.031 12 24.479L12 18.309C12 18.126 12.148 17.979 12.33 17.979L15.67 17.979C15.852 17.979 16 18.126 16 18.309L16 24.479C16 25.031 16.448 25.479 17 25.479L21.25 25.479C22.217 25.479 23 24.695 23 23.729L23 14.479 24.931 14.479C25.433 14.479 25.921 14.215 26.132 13.759 26.371 13.245 26.244 12.658 25.825 12.29">
+                    </path>
+                </svg></button>
+        </div>
+        <div class="flex-item flex" id="search" style="width: 25%;">
+            <input class="flex-item" type="search"
+                style="background-color: #3a3b3c;border: none;direction: rtl;padding-right: 10px;font-size: medium;color: white;"
+                placeholder="بحث في فيسبوك">
+            <input type="image" style="height: 80%;border-radius: 50%;" src="Resources/favfac.png">
+        </div>
+    </div>
+    <div class="left" style="width: 25%;">
+        <h3>مُموَّل</h3>
+        <button class="box"><span>قدم دلوقتي وابقا عاطل بعدين</span><img src="Resources/ad.png" alt=""></button>
+        <hr>
+        <h3>أعياد الميلاد</h3>
+        <button class="box"><span><bdo dir="rtl">اليوم عيد ميلاد</bdo><bdo dir="ltr">&nbsp;Gira&nbsp;</bdo><bdo
+                    dir="rtl">و</bdo><bdo dir="ltr">&nbsp;Radda&nbsp;</bdo><bdo dir="rtl">قولهم اي حاجة ملهاش لازمة
+                    اوي</bdo></span><img src="Resources/birth.png" alt="" style="height: 50px;"></button>
+        <hr>
+        <div class="coc" style="display:flex;position:relative;justify-content: flex-start;align-items: center;">
+            <button class="circ"><svg viewBox="0 0 28 28" alt="" class="a8c37x1j ms05siws l3qrxjdp b7h9ocf4 q66pz984"
+                    fill="white" height="20" width="20">
+                    <path
+                        d="M14 2.042c6.76 0 12 4.952 12 11.64S20.76 25.322 14 25.322a13.091 13.091 0 0 1-3.474-.461.956 .956 0 0 0-.641.047L7.5 25.959a.961.961 0 0 1-1.348-.849l-.065-2.134a.957.957 0 0 0-.322-.684A11.389 11.389 0 0 1 2 13.682C2 6.994 7.24 2.042 14 2.042ZM6.794 17.086a.57.57 0 0 0 .827.758l3.786-2.874a.722.722 0 0 1 .868 0l2.8 2.1a1.8 1.8 0 0 0 2.6-.481l3.525-5.592a.57.57 0 0 0-.827-.758l-3.786 2.874a.722.722 0 0 1-.868 0l-2.8-2.1a1.8 1.8 0 0 0-2.6.481Z">
+                    </path>
+                </svg></button>
+            <button class="circ"><svg viewBox="0 0 28 28" alt="" class="a8c37x1j ms05siws l3qrxjdp b7h9ocf4 q66pz984"
+                    fill="white" height="20" width="20">
+                    <path
+                        d="M14 2.042c6.76 0 12 4.952 12 11.64S20.76 25.322 14 25.322a13.091 13.091 0 0 1-3.474-.461.956 .956 0 0 0-.641.047L7.5 25.959a.961.961 0 0 1-1.348-.849l-.065-2.134a.957.957 0 0 0-.322-.684A11.389 11.389 0 0 1 2 13.682C2 6.994 7.24 2.042 14 2.042ZM6.794 17.086a.57.57 0 0 0 .827.758l3.786-2.874a.722.722 0 0 1 .868 0l2.8 2.1a1.8 1.8 0 0 0 2.6-.481l3.525-5.592a.57.57 0 0 0-.827-.758l-3.786 2.874a.722.722 0 0 1-.868 0l-2.8-2.1a1.8 1.8 0 0 0-2.6.481Z">
+                    </path>
+                </svg></button>
+            <button class="circ"><svg viewBox="0 0 28 28" alt="" class="a8c37x1j ms05siws l3qrxjdp b7h9ocf4 q66pz984"
+                    fill="white" height="20" width="20">
+                    <path
+                        d="M14 2.042c6.76 0 12 4.952 12 11.64S20.76 25.322 14 25.322a13.091 13.091 0 0 1-3.474-.461.956 .956 0 0 0-.641.047L7.5 25.959a.961.961 0 0 1-1.348-.849l-.065-2.134a.957.957 0 0 0-.322-.684A11.389 11.389 0 0 1 2 13.682C2 6.994 7.24 2.042 14 2.042ZM6.794 17.086a.57.57 0 0 0 .827.758l3.786-2.874a.722.722 0 0 1 .868 0l2.8 2.1a1.8 1.8 0 0 0 2.6-.481l3.525-5.592a.57.57 0 0 0-.827-.758l-3.786 2.874a.722.722 0 0 1-.868 0l-2.8-2.1a1.8 1.8 0 0 0-2.6.481Z">
+                    </path>
+                </svg></button>
+            <h3 style="float: right;display: block;margin-right: 15px;position: absolute;right: 0px;">جهات الاتصال</h3>
+        </div>
+        <button class="dec"><span>Shadi B.Ibrahim</span><img
+                src="Resources/me.jpg"
+                alt=""></button>
+        <button class="dec"><span>Shadi B.Ibrahim</span><img
+                src="Resources/me.jpg"
+                alt=""></button>
+        <button class="dec"><span>Shadi B.Ibrahim</span><img
+                src="Resources/me.jpg"
+                alt=""></button>
+        <button class="dec"><span>Shadi B.Ibrahim</span><img
+                src="Resources/me.jpg"
+                alt=""></button>
+        <button class="dec"><span>Shadi B.Ibrahim</span><img
+                src="Resources/me.jpg"
+                alt=""></button>
+        <button class="dec"><span>Shadi B.Ibrahim</span><img
+                src="Resources/me.jpg"
+                alt=""></button>
+        <button class="dec"><span>Shadi B.Ibrahim</span><img
+                src="Resources/me.jpg"
+                alt=""></button>
+        <button class="dec"><span>Shadi B.Ibrahim</span><img
+                src="Resources/me.jpg"
+                alt=""></button>
+        <button class="dec"><span>Shadi B.Ibrahim</span><img
+                src="Resources/me.jpg"
+                alt=""></button>
+        <button class="dec"><span>Shadi B.Ibrahim</span><img
+                src="Resources/me.jpg"
+                alt=""></button>
+        <button class="dec"><span>Shadi B.Ibrahim</span><img
+                src="Resources/me.jpg"
+                alt=""></button>
+        <hr>
+        <h3>محادثات جماعية</h3>
+        <button class="dec" style="position: relative;"><span>Shadi B.Ibrahim</span><img
+                src="Resources/me.jpg"
+                alt=""><img
+                src="Resources/me.jpg"
+                style="display: block;height: 20px;position: absolute;bottom: 2px;right: 0px;" alt=""></button>
+    </div>
+    <div class="middle" style="width: 50%;">
+        <!-- <button><img src="" alt=""></button> -->
+        <div class="status">
+            <button><span>إنشاء قصة</span><svg
+                    style="display:block; width:30px;height:30px;border-radius: 50%;background-color: #2e89ff;position:absolute; bottom:35px; left:50%;transform:translate(-50%,0);"
+                    fill="white" viewBox="0 0 20 20" width="1em" height="1em"
+                    class="a8c37x1j ms05siws l3qrxjdp b7h9ocf4 ljqsnud1 jnigpg78 odw8uiq3">
+                    <g fill-rule="evenodd" transform="translate(-446 -350)">
+                        <g fill-rule="nonzero">
+                            <path d="M95 201.5h13a1 1 0 1 0 0-2H95a1 1 0 1 0 0 2z" transform="translate(354.5 159.5)">
+                            </path>
+                            <path d="M102.5 207v-13a1 1 0 1 0-2 0v13a1 1 0 1 0 2 0z" transform="translate(354.5 159.5)">
+                            </path>
+                        </g>
+                    </g>
+                </svg></button>
+            <button><span></span><img
+                    src="Resources/me.jpg"
+                    alt=""></button>
+            <button><span></span><img
+                    src="Resources/me.jpg"
+                    alt=""></button>
+            <button><span></span><img
+                    src="Resources/me.jpg"
+                    alt=""></button>
+            <button><span></span><img
+                    src="Resources/me.jpg"
+                    alt=""></button>
+            <button><span></span><img
+                    src="Resources/me.jpg"
+                    alt=""></button>
+            <button><span></span><img
+                    src="Resources/me.jpg"
+                    alt=""></button>
+            <button><span></span><img
+                    src="Resources/me.jpg"
+                    alt=""></button>
+            <button><span></span><img
+                    src="Resources/me.jpg"
+                    alt=""></button>
+            <button><span></span><img
+                    src="Resources/me.jpg"
+                    alt=""></button>
+        </div>
+        <div class="think">
+            <div class="flex-item flex" id="search" style="width: 100%;height: 50px;">
+                <input class="flex-item" type="search"
+                    style="background-color: #3a3b3c;border: none;direction: rtl;padding-right: 10px;font-size: medium;color: white;margin-top: 10px;"
+                    placeholder="بم تفكر يا Shady ؟">
+                <input type="image" style="height: 70%;border-radius: 50%;margin-top: 10px;"
+                    src="Resources/me.jpg">
+            </div>
+            <hr style="border-color: rgba(255, 255, 255, 0.1);">
+            <div class="flex" style="justify-content: space-between;">
+                <button class="dec thr flex"><span>شعور / نشاط</span><svg fill="green" viewBox="0 0 24 24" width="2em"
+                        height="2em" style="margin-left: 5px;"
+                        class="a8c37x1j ms05siws l3qrxjdp b7h9ocf4 j58f7537 rgmg9uty b73ngqbp">
+                        <g fill-rule="evenodd" transform="translate(-444 -156)">
+                            <g>
+                                <path
+                                    d="m96.968 22.425-.648.057a2.692 2.692 0 0 1-1.978-.625 2.69 2.69 0 0 1-.96-1.84L92.01 4.32a2.702 2.702 0 0 1 .79-2.156c.47-.472 1.111-.731 1.774-.79l2.58-.225a.498.498 0 0 1 .507.675 4.189 4.189 0 0 0-.251 1.11L96.017 18.85a4.206 4.206 0 0 0 .977 3.091s.459.364-.026.485m8.524-16.327a1.75 1.75 0 1 1-3.485.305 1.75 1.75 0 0 1 3.485-.305m5.85 3.011a.797.797 0 0 0-1.129-.093l-3.733 3.195a.545.545 0 0 0-.062.765l.837.993a.75.75 0 1 1-1.147.966l-2.502-2.981a.797.797 0 0 0-1.096-.12L99 14.5l-.5 4.25c-.06.674.326 2.19 1 2.25l11.916 1.166c.325.026 1-.039 1.25-.25.252-.21.89-.842.917-1.166l.833-8.084-3.073-3.557z"
+                                    transform="translate(352 156.5)"></path>
+                                <path fill-rule="nonzero"
+                                    d="m111.61 22.963-11.604-1.015a2.77 2.77 0 0 1-2.512-2.995L98.88 3.09A2.77 2.77 0 0 1 101.876.58l11.603 1.015a2.77 2.77 0 0 1 2.513 2.994l-1.388 15.862a2.77 2.77 0 0 1-2.994 2.513zm.13-1.494.082.004a1.27 1.27 0 0 0 1.287-1.154l1.388-15.862a1.27 1.27 0 0 0-1.148-1.37l-11.604-1.014a1.27 1.27 0 0 0-1.37 1.15l-1.387 15.86a1.27 1.27 0 0 0 1.149 1.37l11.603 1.016z"
+                                    transform="translate(352 156.5)"></path>
+                            </g>
+                        </g>
+                    </svg></button>
+                <button class="dec thr flex"><span>صورة / فيديو</span><svg fill="green" viewBox="0 0 24 24" width="2em"
+                        height="2em" style="margin-left: 5px;"
+                        class="a8c37x1j ms05siws l3qrxjdp b7h9ocf4 j58f7537 rgmg9uty b73ngqbp">
+                        <g fill-rule="evenodd" transform="translate(-444 -156)">
+                            <g>
+                                <path
+                                    d="m96.968 22.425-.648.057a2.692 2.692 0 0 1-1.978-.625 2.69 2.69 0 0 1-.96-1.84L92.01 4.32a2.702 2.702 0 0 1 .79-2.156c.47-.472 1.111-.731 1.774-.79l2.58-.225a.498.498 0 0 1 .507.675 4.189 4.189 0 0 0-.251 1.11L96.017 18.85a4.206 4.206 0 0 0 .977 3.091s.459.364-.026.485m8.524-16.327a1.75 1.75 0 1 1-3.485.305 1.75 1.75 0 0 1 3.485-.305m5.85 3.011a.797.797 0 0 0-1.129-.093l-3.733 3.195a.545.545 0 0 0-.062.765l.837.993a.75.75 0 1 1-1.147.966l-2.502-2.981a.797.797 0 0 0-1.096-.12L99 14.5l-.5 4.25c-.06.674.326 2.19 1 2.25l11.916 1.166c.325.026 1-.039 1.25-.25.252-.21.89-.842.917-1.166l.833-8.084-3.073-3.557z"
+                                    transform="translate(352 156.5)"></path>
+                                <path fill-rule="nonzero"
+                                    d="m111.61 22.963-11.604-1.015a2.77 2.77 0 0 1-2.512-2.995L98.88 3.09A2.77 2.77 0 0 1 101.876.58l11.603 1.015a2.77 2.77 0 0 1 2.513 2.994l-1.388 15.862a2.77 2.77 0 0 1-2.994 2.513zm.13-1.494.082.004a1.27 1.27 0 0 0 1.287-1.154l1.388-15.862a1.27 1.27 0 0 0-1.148-1.37l-11.604-1.014a1.27 1.27 0 0 0-1.37 1.15l-1.387 15.86a1.27 1.27 0 0 0 1.149 1.37l11.603 1.016z"
+                                    transform="translate(352 156.5)"></path>
+                            </g>
+                        </g>
+                    </svg></button>
+                <button class="dec thr flex"><span>فيديو بث مباشر</span><svg fill="green" viewBox="0 0 24 24"
+                        width="2em" height="2em" style="margin-left: 5px;"
+                        class="a8c37x1j ms05siws l3qrxjdp b7h9ocf4 j58f7537 rgmg9uty b73ngqbp">
+                        <g fill-rule="evenodd" transform="translate(-444 -156)">
+                            <g>
+                                <path
+                                    d="m96.968 22.425-.648.057a2.692 2.692 0 0 1-1.978-.625 2.69 2.69 0 0 1-.96-1.84L92.01 4.32a2.702 2.702 0 0 1 .79-2.156c.47-.472 1.111-.731 1.774-.79l2.58-.225a.498.498 0 0 1 .507.675 4.189 4.189 0 0 0-.251 1.11L96.017 18.85a4.206 4.206 0 0 0 .977 3.091s.459.364-.026.485m8.524-16.327a1.75 1.75 0 1 1-3.485.305 1.75 1.75 0 0 1 3.485-.305m5.85 3.011a.797.797 0 0 0-1.129-.093l-3.733 3.195a.545.545 0 0 0-.062.765l.837.993a.75.75 0 1 1-1.147.966l-2.502-2.981a.797.797 0 0 0-1.096-.12L99 14.5l-.5 4.25c-.06.674.326 2.19 1 2.25l11.916 1.166c.325.026 1-.039 1.25-.25.252-.21.89-.842.917-1.166l.833-8.084-3.073-3.557z"
+                                    transform="translate(352 156.5)"></path>
+                                <path fill-rule="nonzero"
+                                    d="m111.61 22.963-11.604-1.015a2.77 2.77 0 0 1-2.512-2.995L98.88 3.09A2.77 2.77 0 0 1 101.876.58l11.603 1.015a2.77 2.77 0 0 1 2.513 2.994l-1.388 15.862a2.77 2.77 0 0 1-2.994 2.513zm.13-1.494.082.004a1.27 1.27 0 0 0 1.287-1.154l1.388-15.862a1.27 1.27 0 0 0-1.148-1.37l-11.604-1.014a1.27 1.27 0 0 0-1.37 1.15l-1.387 15.86a1.27 1.27 0 0 0 1.149 1.37l11.603 1.016z"
+                                    transform="translate(352 156.5)"></path>
+                            </g>
+                        </g>
+                    </svg></button>
+            </div>
+        </div>
+        <div class="scrolled status" style="width: 90%;">
+            <button id="lol"><span>إنشاء غرفة</span><i data-visualcompletion="css-img" class="hu5pjgll"
+                    style="background-image:url('https://static.xx.fbcdn.net/rsrc.php/v3/ym/r/5zaboDASSye.png');background-position:0 -219px;background-size:auto;width:24px;height:24px;background-repeat:no-repeat;display:inline-block"></i></button>
+            <input type="image" name="" id=""
+                src="Resources/me.jpg">
+            <input type="image" name="" id=""
+                src="Resources/me.jpg">
+            <input type="image" name="" id=""
+                src="Resources/me.jpg">
+            <input type="image" name="" id=""
+                src="Resources/me.jpg">
+            <input type="image" name="" id=""
+                src="Resources/me.jpg">
+            <input type="image" name="" id=""
+                src="Resources/me.jpg">
+            <input type="image" name="" id=""
+                src="Resources/me.jpg">
+            <input type="image" name="" id=""
+                src="Resources/me.jpg">
+            <input type="image" name="" id=""
+                src="Resources/me.jpg">
+            <input type="image" name="" id=""
+                src="Resources/me.jpg">
+            <input type="image" name="" id=""
+                src="Resources/me.jpg">
+            <input type="image" name="" id=""
+                src="Resources/me.jpg">
+            <input type="image" name="" id=""
+                src="Resources/me.jpg">
+            <input type="image" name="" id=""
+                src="Resources/me.jpg">
+        </div>
+        <div class="post1" style="background-color: #242526;width: 90%;margin: auto;">
+            <div style="height: 60px;">
+                <button style="background-color:#242526 ;margin-top: 5px;margin-left: 5px;" class="circ"><svg
+                        fill="white" viewBox="0 0 20 20" width="2em" height="2em"
+                        class="a8c37x1j ms05siws l3qrxjdp b7h9ocf4 py1f6qlh jnigpg78 odw8uiq3">
+                        <g fill-rule="evenodd" transform="translate(-446 -350)">
+                            <path
+                                d="M458 360a2 2 0 1 1-4 0 2 2 0 0 1 4 0m6 0a2 2 0 1 1-4 0 2 2 0 0 1 4 0m-12 0a2 2 0 1 1-4 0 2 2 0 0 1 4 0">
+                            </path>
+                        </g>
+                    </svg></button>
+                <input style="float: right;border-radius: 50%;margin-top: 5px;margin-right: 5px;" type="image"
+                    src="Resources/me.jpg">
+                <span style="float:right;direction: rtl;margin-right: 10px;margin-top: 5px;">
+                    <a href=""
+                        style="color: white;font-size: medium;text-decoration: none;font-family:Arial, Helvetica, sans-serif;">Shadi
+                        B.Ibrahim</a>
+                    <br>
+                    <a href="" style="color: grey;text-decoration: none;font-family:Arial, Helvetica, sans-serif;">10
+                        س</a>
+                </span>
+            </div>
+            <div class="content" style="width: 100%;">
+                <p style="margin: 5px;line-height: 30px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Maiores ullam autem vel cumque repellendus obcaecati ex ab impedit! Porro ipsam natus voluptates
+                    magnam voluptas, maiores facere veritatis deleniti totam delectus!
+                </p>
+                <img src="Resources/love.jpg" alt="" style="display:block;width: 100%;">
+            </div>
+            <a href=""
+                style="float: right;display: block;margin-top: 20px;margin-right: 5px;margin-bottom: 10px;color: white;text-decoration: none;">100000<input
+                    type="image" style="display: block;float: right;margin-left: 5px;margin-right: 3px;" width="20px"
+                    height="20px"
+                    src="Resources/love.png"
+                    alt=""></a>
+            <hr style="border-color: rgba(255, 255, 255, 0.1);">
+            <div class="flex" style="justify-content: space-between;height: 60px;">
+                <button class="dec thr flex"><span>مشاركة</span><svg fill="green" viewBox="0 0 24 24" width="2em"
+                        height="2em" style="margin-left: 5px;"
+                        class="a8c37x1j ms05siws l3qrxjdp b7h9ocf4 j58f7537 rgmg9uty b73ngqbp">
+                        <g fill-rule="evenodd" transform="translate(-444 -156)">
+                            <g>
+                                <path
+                                    d="m96.968 22.425-.648.057a2.692 2.692 0 0 1-1.978-.625 2.69 2.69 0 0 1-.96-1.84L92.01 4.32a2.702 2.702 0 0 1 .79-2.156c.47-.472 1.111-.731 1.774-.79l2.58-.225a.498.498 0 0 1 .507.675 4.189 4.189 0 0 0-.251 1.11L96.017 18.85a4.206 4.206 0 0 0 .977 3.091s.459.364-.026.485m8.524-16.327a1.75 1.75 0 1 1-3.485.305 1.75 1.75 0 0 1 3.485-.305m5.85 3.011a.797.797 0 0 0-1.129-.093l-3.733 3.195a.545.545 0 0 0-.062.765l.837.993a.75.75 0 1 1-1.147.966l-2.502-2.981a.797.797 0 0 0-1.096-.12L99 14.5l-.5 4.25c-.06.674.326 2.19 1 2.25l11.916 1.166c.325.026 1-.039 1.25-.25.252-.21.89-.842.917-1.166l.833-8.084-3.073-3.557z"
+                                    transform="translate(352 156.5)"></path>
+                                <path fill-rule="nonzero"
+                                    d="m111.61 22.963-11.604-1.015a2.77 2.77 0 0 1-2.512-2.995L98.88 3.09A2.77 2.77 0 0 1 101.876.58l11.603 1.015a2.77 2.77 0 0 1 2.513 2.994l-1.388 15.862a2.77 2.77 0 0 1-2.994 2.513zm.13-1.494.082.004a1.27 1.27 0 0 0 1.287-1.154l1.388-15.862a1.27 1.27 0 0 0-1.148-1.37l-11.604-1.014a1.27 1.27 0 0 0-1.37 1.15l-1.387 15.86a1.27 1.27 0 0 0 1.149 1.37l11.603 1.016z"
+                                    transform="translate(352 156.5)"></path>
+                            </g>
+                        </g>
+                    </svg></button>
+                <button class="dec thr flex"><span>تعليق</span><svg fill="red" viewBox="0 0 24 24" width="2em"
+                        height="2em" style="margin-left: 5px;"
+                        class="a8c37x1j ms05siws l3qrxjdp b7h9ocf4 j58f7537 rgmg9uty b73ngqbp">
+                        <g fill-rule="evenodd" transform="translate(-444 -156)">
+                            <g>
+                                <path
+                                    d="m96.968 22.425-.648.057a2.692 2.692 0 0 1-1.978-.625 2.69 2.69 0 0 1-.96-1.84L92.01 4.32a2.702 2.702 0 0 1 .79-2.156c.47-.472 1.111-.731 1.774-.79l2.58-.225a.498.498 0 0 1 .507.675 4.189 4.189 0 0 0-.251 1.11L96.017 18.85a4.206 4.206 0 0 0 .977 3.091s.459.364-.026.485m8.524-16.327a1.75 1.75 0 1 1-3.485.305 1.75 1.75 0 0 1 3.485-.305m5.85 3.011a.797.797 0 0 0-1.129-.093l-3.733 3.195a.545.545 0 0 0-.062.765l.837.993a.75.75 0 1 1-1.147.966l-2.502-2.981a.797.797 0 0 0-1.096-.12L99 14.5l-.5 4.25c-.06.674.326 2.19 1 2.25l11.916 1.166c.325.026 1-.039 1.25-.25.252-.21.89-.842.917-1.166l.833-8.084-3.073-3.557z"
+                                    transform="translate(352 156.5)"></path>
+                                <path fill-rule="nonzero"
+                                    d="m111.61 22.963-11.604-1.015a2.77 2.77 0 0 1-2.512-2.995L98.88 3.09A2.77 2.77 0 0 1 101.876.58l11.603 1.015a2.77 2.77 0 0 1 2.513 2.994l-1.388 15.862a2.77 2.77 0 0 1-2.994 2.513zm.13-1.494.082.004a1.27 1.27 0 0 0 1.287-1.154l1.388-15.862a1.27 1.27 0 0 0-1.148-1.37l-11.604-1.014a1.27 1.27 0 0 0-1.37 1.15l-1.387 15.86a1.27 1.27 0 0 0 1.149 1.37l11.603 1.016z"
+                                    transform="translate(352 156.5)"></path>
+                            </g>
+                        </g>
+                    </svg></button>
+                <button class="dec thr flex"><span>أعجبني</span><svg fill="yellow" viewBox="0 0 24 24" width="2em"
+                        height="2em" style="margin-left: 5px;"
+                        class="a8c37x1j ms05siws l3qrxjdp b7h9ocf4 j58f7537 rgmg9uty b73ngqbp">
+                        <g fill-rule="evenodd" transform="translate(-444 -156)">
+                            <g>
+                                <path
+                                    d="m96.968 22.425-.648.057a2.692 2.692 0 0 1-1.978-.625 2.69 2.69 0 0 1-.96-1.84L92.01 4.32a2.702 2.702 0 0 1 .79-2.156c.47-.472 1.111-.731 1.774-.79l2.58-.225a.498.498 0 0 1 .507.675 4.189 4.189 0 0 0-.251 1.11L96.017 18.85a4.206 4.206 0 0 0 .977 3.091s.459.364-.026.485m8.524-16.327a1.75 1.75 0 1 1-3.485.305 1.75 1.75 0 0 1 3.485-.305m5.85 3.011a.797.797 0 0 0-1.129-.093l-3.733 3.195a.545.545 0 0 0-.062.765l.837.993a.75.75 0 1 1-1.147.966l-2.502-2.981a.797.797 0 0 0-1.096-.12L99 14.5l-.5 4.25c-.06.674.326 2.19 1 2.25l11.916 1.166c.325.026 1-.039 1.25-.25.252-.21.89-.842.917-1.166l.833-8.084-3.073-3.557z"
+                                    transform="translate(352 156.5)"></path>
+                                <path fill-rule="nonzero"
+                                    d="m111.61 22.963-11.604-1.015a2.77 2.77 0 0 1-2.512-2.995L98.88 3.09A2.77 2.77 0 0 1 101.876.58l11.603 1.015a2.77 2.77 0 0 1 2.513 2.994l-1.388 15.862a2.77 2.77 0 0 1-2.994 2.513zm.13-1.494.082.004a1.27 1.27 0 0 0 1.287-1.154l1.388-15.862a1.27 1.27 0 0 0-1.148-1.37l-11.604-1.014a1.27 1.27 0 0 0-1.37 1.15l-1.387 15.86a1.27 1.27 0 0 0 1.149 1.37l11.603 1.016z"
+                                    transform="translate(352 156.5)"></path>
+                            </g>
+                        </g>
+                    </svg></button>
+            </div>
+            <hr style="border-color: rgba(255, 255, 255, 0.1);">
+            <div class="flex-item flex" id="search"
+                style="width: 100%;height: 50px;position: relative;padding-bottom: 20px;">
+                <input class="flex-item" type="search"
+                    style="background-color: #3a3b3c;border: none;direction: rtl;padding-right: 10px;font-size: medium;color: white;margin-top: 10px;"
+                    placeholder="أكتب تعليقا عاما...">
+                <input type="image" style="height: 70%;border-radius: 50%;margin-top: 10px;"
+                    src="Resources/me.jpg">
+                <button style="position: absolute;top: 15px;left: 40px;height: 30px;width: 30px;" class="circ"><svg
+                        style="vertical-align: middle;" viewBox="0 0 28 28" alt=""
+                        class="a8c37x1j ms05siws l3qrxjdp b7h9ocf4 q66pz984" fill="white" height="20" width="20">
+                        <path
+                            d="M14 2.042c6.76 0 12 4.952 12 11.64S20.76 25.322 14 25.322a13.091 13.091 0 0 1-3.474-.461.956 .956 0 0 0-.641.047L7.5 25.959a.961.961 0 0 1-1.348-.849l-.065-2.134a.957.957 0 0 0-.322-.684A11.389 11.389 0 0 1 2 13.682C2 6.994 7.24 2.042 14 2.042ZM6.794 17.086a.57.57 0 0 0 .827.758l3.786-2.874a.722.722 0 0 1 .868 0l2.8 2.1a1.8 1.8 0 0 0 2.6-.481l3.525-5.592a.57.57 0 0 0-.827-.758l-3.786 2.874a.722.722 0 0 1-.868 0l-2.8-2.1a1.8 1.8 0 0 0-2.6.481Z">
+                        </path>
+                    </svg></button>
+                <button style="position: absolute;top: 15px;left: 80px;height: 30px;width: 30px;" class="circ"><svg
+                        style="vertical-align: middle;" viewBox="0 0 28 28" alt=""
+                        class="a8c37x1j ms05siws l3qrxjdp b7h9ocf4 q66pz984" fill="white" height="20" width="20">
+                        <path
+                            d="M14 2.042c6.76 0 12 4.952 12 11.64S20.76 25.322 14 25.322a13.091 13.091 0 0 1-3.474-.461.956 .956 0 0 0-.641.047L7.5 25.959a.961.961 0 0 1-1.348-.849l-.065-2.134a.957.957 0 0 0-.322-.684A11.389 11.389 0 0 1 2 13.682C2 6.994 7.24 2.042 14 2.042ZM6.794 17.086a.57.57 0 0 0 .827.758l3.786-2.874a.722.722 0 0 1 .868 0l2.8 2.1a1.8 1.8 0 0 0 2.6-.481l3.525-5.592a.57.57 0 0 0-.827-.758l-3.786 2.874a.722.722 0 0 1-.868 0l-2.8-2.1a1.8 1.8 0 0 0-2.6.481Z">
+                        </path>
+                    </svg></button>
+                <button style="position: absolute;top: 15px;left: 120px;height: 30px;width: 30px;" class="circ"><svg
+                        style="vertical-align: middle;" viewBox="0 0 28 28" alt=""
+                        class="a8c37x1j ms05siws l3qrxjdp b7h9ocf4 q66pz984" fill="white" height="20" width="20">
+                        <path
+                            d="M14 2.042c6.76 0 12 4.952 12 11.64S20.76 25.322 14 25.322a13.091 13.091 0 0 1-3.474-.461.956 .956 0 0 0-.641.047L7.5 25.959a.961.961 0 0 1-1.348-.849l-.065-2.134a.957.957 0 0 0-.322-.684A11.389 11.389 0 0 1 2 13.682C2 6.994 7.24 2.042 14 2.042ZM6.794 17.086a.57.57 0 0 0 .827.758l3.786-2.874a.722.722 0 0 1 .868 0l2.8 2.1a1.8 1.8 0 0 0 2.6-.481l3.525-5.592a.57.57 0 0 0-.827-.758l-3.786 2.874a.722.722 0 0 1-.868 0l-2.8-2.1a1.8 1.8 0 0 0-2.6.481Z">
+                        </path>
+                    </svg></button>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="post1" style="background-color: #242526;width: 90%;margin: auto;">
+            <div style="height: 60px;">
+                <button style="background-color:#242526 ;margin-top: 5px;margin-left: 5px;" class="circ"><svg
+                        fill="white" viewBox="0 0 20 20" width="2em" height="2em"
+                        class="a8c37x1j ms05siws l3qrxjdp b7h9ocf4 py1f6qlh jnigpg78 odw8uiq3">
+                        <g fill-rule="evenodd" transform="translate(-446 -350)">
+                            <path
+                                d="M458 360a2 2 0 1 1-4 0 2 2 0 0 1 4 0m6 0a2 2 0 1 1-4 0 2 2 0 0 1 4 0m-12 0a2 2 0 1 1-4 0 2 2 0 0 1 4 0">
+                            </path>
+                        </g>
+                    </svg></button>
+                <input style="float: right;border-radius: 50%;margin-top: 5px;margin-right: 5px;" type="image"
+                    src="Resources/me.jpg">
+                <span style="float:right;direction: rtl;margin-right: 10px;margin-top: 5px;">
+                    <a href=""
+                        style="color: white;font-size: medium;text-decoration: none;font-family:Arial, Helvetica, sans-serif;">Shadi
+                        B.Ibrahim</a>
+                    <br>
+                    <a href="" style="color: grey;text-decoration: none;font-family:Arial, Helvetica, sans-serif;">10
+                        س</a>
+                </span>
+            </div>
+            <div class="content" style="width: 100%;">
+                <p style="margin: 5px;line-height: 30px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Maiores ullam autem vel cumque repellendus obcaecati ex ab impedit! Porro ipsam natus voluptates
+                    magnam voluptas, maiores facere veritatis deleniti totam delectus!
+                </p>
+                <img src="Resources/love.jpg" alt="" style="display:block;width: 100%;">
+            </div>
+            <a href=""
+                style="float: right;display: block;margin-top: 20px;margin-right: 5px;margin-bottom: 10px;color: white;text-decoration: none;">100000<input
+                    type="image" style="display: block;float: right;margin-left: 5px;margin-right: 3px;" width="20px"
+                    height="20px"
+                    src="Resources/love.png"
+                    alt=""></a>
+            <hr style="border-color: rgba(255, 255, 255, 0.1);">
+            <div class="flex" style="justify-content: space-between;height: 60px;">
+                <button class="dec thr flex"><span>مشاركة</span><svg fill="green" viewBox="0 0 24 24" width="2em"
+                        height="2em" style="margin-left: 5px;"
+                        class="a8c37x1j ms05siws l3qrxjdp b7h9ocf4 j58f7537 rgmg9uty b73ngqbp">
+                        <g fill-rule="evenodd" transform="translate(-444 -156)">
+                            <g>
+                                <path
+                                    d="m96.968 22.425-.648.057a2.692 2.692 0 0 1-1.978-.625 2.69 2.69 0 0 1-.96-1.84L92.01 4.32a2.702 2.702 0 0 1 .79-2.156c.47-.472 1.111-.731 1.774-.79l2.58-.225a.498.498 0 0 1 .507.675 4.189 4.189 0 0 0-.251 1.11L96.017 18.85a4.206 4.206 0 0 0 .977 3.091s.459.364-.026.485m8.524-16.327a1.75 1.75 0 1 1-3.485.305 1.75 1.75 0 0 1 3.485-.305m5.85 3.011a.797.797 0 0 0-1.129-.093l-3.733 3.195a.545.545 0 0 0-.062.765l.837.993a.75.75 0 1 1-1.147.966l-2.502-2.981a.797.797 0 0 0-1.096-.12L99 14.5l-.5 4.25c-.06.674.326 2.19 1 2.25l11.916 1.166c.325.026 1-.039 1.25-.25.252-.21.89-.842.917-1.166l.833-8.084-3.073-3.557z"
+                                    transform="translate(352 156.5)"></path>
+                                <path fill-rule="nonzero"
+                                    d="m111.61 22.963-11.604-1.015a2.77 2.77 0 0 1-2.512-2.995L98.88 3.09A2.77 2.77 0 0 1 101.876.58l11.603 1.015a2.77 2.77 0 0 1 2.513 2.994l-1.388 15.862a2.77 2.77 0 0 1-2.994 2.513zm.13-1.494.082.004a1.27 1.27 0 0 0 1.287-1.154l1.388-15.862a1.27 1.27 0 0 0-1.148-1.37l-11.604-1.014a1.27 1.27 0 0 0-1.37 1.15l-1.387 15.86a1.27 1.27 0 0 0 1.149 1.37l11.603 1.016z"
+                                    transform="translate(352 156.5)"></path>
+                            </g>
+                        </g>
+                    </svg></button>
+                <button class="dec thr flex"><span>تعليق</span><svg fill="red" viewBox="0 0 24 24" width="2em"
+                        height="2em" style="margin-left: 5px;"
+                        class="a8c37x1j ms05siws l3qrxjdp b7h9ocf4 j58f7537 rgmg9uty b73ngqbp">
+                        <g fill-rule="evenodd" transform="translate(-444 -156)">
+                            <g>
+                                <path
+                                    d="m96.968 22.425-.648.057a2.692 2.692 0 0 1-1.978-.625 2.69 2.69 0 0 1-.96-1.84L92.01 4.32a2.702 2.702 0 0 1 .79-2.156c.47-.472 1.111-.731 1.774-.79l2.58-.225a.498.498 0 0 1 .507.675 4.189 4.189 0 0 0-.251 1.11L96.017 18.85a4.206 4.206 0 0 0 .977 3.091s.459.364-.026.485m8.524-16.327a1.75 1.75 0 1 1-3.485.305 1.75 1.75 0 0 1 3.485-.305m5.85 3.011a.797.797 0 0 0-1.129-.093l-3.733 3.195a.545.545 0 0 0-.062.765l.837.993a.75.75 0 1 1-1.147.966l-2.502-2.981a.797.797 0 0 0-1.096-.12L99 14.5l-.5 4.25c-.06.674.326 2.19 1 2.25l11.916 1.166c.325.026 1-.039 1.25-.25.252-.21.89-.842.917-1.166l.833-8.084-3.073-3.557z"
+                                    transform="translate(352 156.5)"></path>
+                                <path fill-rule="nonzero"
+                                    d="m111.61 22.963-11.604-1.015a2.77 2.77 0 0 1-2.512-2.995L98.88 3.09A2.77 2.77 0 0 1 101.876.58l11.603 1.015a2.77 2.77 0 0 1 2.513 2.994l-1.388 15.862a2.77 2.77 0 0 1-2.994 2.513zm.13-1.494.082.004a1.27 1.27 0 0 0 1.287-1.154l1.388-15.862a1.27 1.27 0 0 0-1.148-1.37l-11.604-1.014a1.27 1.27 0 0 0-1.37 1.15l-1.387 15.86a1.27 1.27 0 0 0 1.149 1.37l11.603 1.016z"
+                                    transform="translate(352 156.5)"></path>
+                            </g>
+                        </g>
+                    </svg></button>
+                <button class="dec thr flex"><span>أعجبني</span><svg fill="yellow" viewBox="0 0 24 24" width="2em"
+                        height="2em" style="margin-left: 5px;"
+                        class="a8c37x1j ms05siws l3qrxjdp b7h9ocf4 j58f7537 rgmg9uty b73ngqbp">
+                        <g fill-rule="evenodd" transform="translate(-444 -156)">
+                            <g>
+                                <path
+                                    d="m96.968 22.425-.648.057a2.692 2.692 0 0 1-1.978-.625 2.69 2.69 0 0 1-.96-1.84L92.01 4.32a2.702 2.702 0 0 1 .79-2.156c.47-.472 1.111-.731 1.774-.79l2.58-.225a.498.498 0 0 1 .507.675 4.189 4.189 0 0 0-.251 1.11L96.017 18.85a4.206 4.206 0 0 0 .977 3.091s.459.364-.026.485m8.524-16.327a1.75 1.75 0 1 1-3.485.305 1.75 1.75 0 0 1 3.485-.305m5.85 3.011a.797.797 0 0 0-1.129-.093l-3.733 3.195a.545.545 0 0 0-.062.765l.837.993a.75.75 0 1 1-1.147.966l-2.502-2.981a.797.797 0 0 0-1.096-.12L99 14.5l-.5 4.25c-.06.674.326 2.19 1 2.25l11.916 1.166c.325.026 1-.039 1.25-.25.252-.21.89-.842.917-1.166l.833-8.084-3.073-3.557z"
+                                    transform="translate(352 156.5)"></path>
+                                <path fill-rule="nonzero"
+                                    d="m111.61 22.963-11.604-1.015a2.77 2.77 0 0 1-2.512-2.995L98.88 3.09A2.77 2.77 0 0 1 101.876.58l11.603 1.015a2.77 2.77 0 0 1 2.513 2.994l-1.388 15.862a2.77 2.77 0 0 1-2.994 2.513zm.13-1.494.082.004a1.27 1.27 0 0 0 1.287-1.154l1.388-15.862a1.27 1.27 0 0 0-1.148-1.37l-11.604-1.014a1.27 1.27 0 0 0-1.37 1.15l-1.387 15.86a1.27 1.27 0 0 0 1.149 1.37l11.603 1.016z"
+                                    transform="translate(352 156.5)"></path>
+                            </g>
+                        </g>
+                    </svg></button>
+            </div>
+            <hr style="border-color: rgba(255, 255, 255, 0.1);">
+            <div class="flex-item flex" id="search"
+                style="width: 100%;height: 50px;position: relative;padding-bottom: 20px;">
+                <input class="flex-item" type="search"
+                    style="background-color: #3a3b3c;border: none;direction: rtl;padding-right: 10px;font-size: medium;color: white;margin-top: 10px;"
+                    placeholder="أكتب تعليقا عاما...">
+                <input type="image" style="height: 70%;border-radius: 50%;margin-top: 10px;"
+                    src="Resources/me.jpg">
+                <button style="position: absolute;top: 15px;left: 40px;height: 30px;width: 30px;" class="circ"><svg
+                        style="vertical-align: middle;" viewBox="0 0 28 28" alt=""
+                        class="a8c37x1j ms05siws l3qrxjdp b7h9ocf4 q66pz984" fill="white" height="20" width="20">
+                        <path
+                            d="M14 2.042c6.76 0 12 4.952 12 11.64S20.76 25.322 14 25.322a13.091 13.091 0 0 1-3.474-.461.956 .956 0 0 0-.641.047L7.5 25.959a.961.961 0 0 1-1.348-.849l-.065-2.134a.957.957 0 0 0-.322-.684A11.389 11.389 0 0 1 2 13.682C2 6.994 7.24 2.042 14 2.042ZM6.794 17.086a.57.57 0 0 0 .827.758l3.786-2.874a.722.722 0 0 1 .868 0l2.8 2.1a1.8 1.8 0 0 0 2.6-.481l3.525-5.592a.57.57 0 0 0-.827-.758l-3.786 2.874a.722.722 0 0 1-.868 0l-2.8-2.1a1.8 1.8 0 0 0-2.6.481Z">
+                        </path>
+                    </svg></button>
+                <button style="position: absolute;top: 15px;left: 80px;height: 30px;width: 30px;" class="circ"><svg
+                        style="vertical-align: middle;" viewBox="0 0 28 28" alt=""
+                        class="a8c37x1j ms05siws l3qrxjdp b7h9ocf4 q66pz984" fill="white" height="20" width="20">
+                        <path
+                            d="M14 2.042c6.76 0 12 4.952 12 11.64S20.76 25.322 14 25.322a13.091 13.091 0 0 1-3.474-.461.956 .956 0 0 0-.641.047L7.5 25.959a.961.961 0 0 1-1.348-.849l-.065-2.134a.957.957 0 0 0-.322-.684A11.389 11.389 0 0 1 2 13.682C2 6.994 7.24 2.042 14 2.042ZM6.794 17.086a.57.57 0 0 0 .827.758l3.786-2.874a.722.722 0 0 1 .868 0l2.8 2.1a1.8 1.8 0 0 0 2.6-.481l3.525-5.592a.57.57 0 0 0-.827-.758l-3.786 2.874a.722.722 0 0 1-.868 0l-2.8-2.1a1.8 1.8 0 0 0-2.6.481Z">
+                        </path>
+                    </svg></button>
+                <button style="position: absolute;top: 15px;left: 120px;height: 30px;width: 30px;" class="circ"><svg
+                        style="vertical-align: middle;" viewBox="0 0 28 28" alt=""
+                        class="a8c37x1j ms05siws l3qrxjdp b7h9ocf4 q66pz984" fill="white" height="20" width="20">
+                        <path
+                            d="M14 2.042c6.76 0 12 4.952 12 11.64S20.76 25.322 14 25.322a13.091 13.091 0 0 1-3.474-.461.956 .956 0 0 0-.641.047L7.5 25.959a.961.961 0 0 1-1.348-.849l-.065-2.134a.957.957 0 0 0-.322-.684A11.389 11.389 0 0 1 2 13.682C2 6.994 7.24 2.042 14 2.042ZM6.794 17.086a.57.57 0 0 0 .827.758l3.786-2.874a.722.722 0 0 1 .868 0l2.8 2.1a1.8 1.8 0 0 0 2.6-.481l3.525-5.592a.57.57 0 0 0-.827-.758l-3.786 2.874a.722.722 0 0 1-.868 0l-2.8-2.1a1.8 1.8 0 0 0-2.6.481Z">
+                        </path>
+                    </svg></button>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="post1" style="background-color: #242526;width: 90%;margin: auto;">
+            <div style="height: 60px;">
+                <button style="background-color:#242526 ;margin-top: 5px;margin-left: 5px;" class="circ"><svg
+                        fill="white" viewBox="0 0 20 20" width="2em" height="2em"
+                        class="a8c37x1j ms05siws l3qrxjdp b7h9ocf4 py1f6qlh jnigpg78 odw8uiq3">
+                        <g fill-rule="evenodd" transform="translate(-446 -350)">
+                            <path
+                                d="M458 360a2 2 0 1 1-4 0 2 2 0 0 1 4 0m6 0a2 2 0 1 1-4 0 2 2 0 0 1 4 0m-12 0a2 2 0 1 1-4 0 2 2 0 0 1 4 0">
+                            </path>
+                        </g>
+                    </svg></button>
+                <input style="float: right;border-radius: 50%;margin-top: 5px;margin-right: 5px;" type="image"
+                    src="Resources/me.jpg">
+                <span style="float:right;direction: rtl;margin-right: 10px;margin-top: 5px;">
+                    <a href=""
+                        style="color: white;font-size: medium;text-decoration: none;font-family:Arial, Helvetica, sans-serif;">Shadi
+                        B.Ibrahim</a>
+                    <br>
+                    <a href="" style="color: grey;text-decoration: none;font-family:Arial, Helvetica, sans-serif;">10
+                        س</a>
+                </span>
+            </div>
+            <div class="content" style="width: 100%;">
+                <p style="margin: 5px;line-height: 30px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Maiores ullam autem vel cumque repellendus obcaecati ex ab impedit! Porro ipsam natus voluptates
+                    magnam voluptas, maiores facere veritatis deleniti totam delectus!
+                </p>
+                <img src="Resources/love.jpg" alt="" style="display:block;width: 100%;">
+            </div>
+            <a href=""
+                style="float: right;display: block;margin-top: 20px;margin-right: 5px;margin-bottom: 10px;color: white;text-decoration: none;">100000<input
+                    type="image" style="display: block;float: right;margin-left: 5px;margin-right: 3px;" width="20px"
+                    height="20px"
+                    src="Resources/love.png"
+                    alt=""></a>
+            <hr style="border-color: rgba(255, 255, 255, 0.1);">
+            <div class="flex" style="justify-content: space-between;height: 60px;">
+                <button class="dec thr flex"><span>مشاركة</span><svg fill="green" viewBox="0 0 24 24" width="2em"
+                        height="2em" style="margin-left: 5px;"
+                        class="a8c37x1j ms05siws l3qrxjdp b7h9ocf4 j58f7537 rgmg9uty b73ngqbp">
+                        <g fill-rule="evenodd" transform="translate(-444 -156)">
+                            <g>
+                                <path
+                                    d="m96.968 22.425-.648.057a2.692 2.692 0 0 1-1.978-.625 2.69 2.69 0 0 1-.96-1.84L92.01 4.32a2.702 2.702 0 0 1 .79-2.156c.47-.472 1.111-.731 1.774-.79l2.58-.225a.498.498 0 0 1 .507.675 4.189 4.189 0 0 0-.251 1.11L96.017 18.85a4.206 4.206 0 0 0 .977 3.091s.459.364-.026.485m8.524-16.327a1.75 1.75 0 1 1-3.485.305 1.75 1.75 0 0 1 3.485-.305m5.85 3.011a.797.797 0 0 0-1.129-.093l-3.733 3.195a.545.545 0 0 0-.062.765l.837.993a.75.75 0 1 1-1.147.966l-2.502-2.981a.797.797 0 0 0-1.096-.12L99 14.5l-.5 4.25c-.06.674.326 2.19 1 2.25l11.916 1.166c.325.026 1-.039 1.25-.25.252-.21.89-.842.917-1.166l.833-8.084-3.073-3.557z"
+                                    transform="translate(352 156.5)"></path>
+                                <path fill-rule="nonzero"
+                                    d="m111.61 22.963-11.604-1.015a2.77 2.77 0 0 1-2.512-2.995L98.88 3.09A2.77 2.77 0 0 1 101.876.58l11.603 1.015a2.77 2.77 0 0 1 2.513 2.994l-1.388 15.862a2.77 2.77 0 0 1-2.994 2.513zm.13-1.494.082.004a1.27 1.27 0 0 0 1.287-1.154l1.388-15.862a1.27 1.27 0 0 0-1.148-1.37l-11.604-1.014a1.27 1.27 0 0 0-1.37 1.15l-1.387 15.86a1.27 1.27 0 0 0 1.149 1.37l11.603 1.016z"
+                                    transform="translate(352 156.5)"></path>
+                            </g>
+                        </g>
+                    </svg></button>
+                <button class="dec thr flex"><span>تعليق</span><svg fill="red" viewBox="0 0 24 24" width="2em"
+                        height="2em" style="margin-left: 5px;"
+                        class="a8c37x1j ms05siws l3qrxjdp b7h9ocf4 j58f7537 rgmg9uty b73ngqbp">
+                        <g fill-rule="evenodd" transform="translate(-444 -156)">
+                            <g>
+                                <path
+                                    d="m96.968 22.425-.648.057a2.692 2.692 0 0 1-1.978-.625 2.69 2.69 0 0 1-.96-1.84L92.01 4.32a2.702 2.702 0 0 1 .79-2.156c.47-.472 1.111-.731 1.774-.79l2.58-.225a.498.498 0 0 1 .507.675 4.189 4.189 0 0 0-.251 1.11L96.017 18.85a4.206 4.206 0 0 0 .977 3.091s.459.364-.026.485m8.524-16.327a1.75 1.75 0 1 1-3.485.305 1.75 1.75 0 0 1 3.485-.305m5.85 3.011a.797.797 0 0 0-1.129-.093l-3.733 3.195a.545.545 0 0 0-.062.765l.837.993a.75.75 0 1 1-1.147.966l-2.502-2.981a.797.797 0 0 0-1.096-.12L99 14.5l-.5 4.25c-.06.674.326 2.19 1 2.25l11.916 1.166c.325.026 1-.039 1.25-.25.252-.21.89-.842.917-1.166l.833-8.084-3.073-3.557z"
+                                    transform="translate(352 156.5)"></path>
+                                <path fill-rule="nonzero"
+                                    d="m111.61 22.963-11.604-1.015a2.77 2.77 0 0 1-2.512-2.995L98.88 3.09A2.77 2.77 0 0 1 101.876.58l11.603 1.015a2.77 2.77 0 0 1 2.513 2.994l-1.388 15.862a2.77 2.77 0 0 1-2.994 2.513zm.13-1.494.082.004a1.27 1.27 0 0 0 1.287-1.154l1.388-15.862a1.27 1.27 0 0 0-1.148-1.37l-11.604-1.014a1.27 1.27 0 0 0-1.37 1.15l-1.387 15.86a1.27 1.27 0 0 0 1.149 1.37l11.603 1.016z"
+                                    transform="translate(352 156.5)"></path>
+                            </g>
+                        </g>
+                    </svg></button>
+                <button class="dec thr flex"><span>أعجبني</span><svg fill="yellow" viewBox="0 0 24 24" width="2em"
+                        height="2em" style="margin-left: 5px;"
+                        class="a8c37x1j ms05siws l3qrxjdp b7h9ocf4 j58f7537 rgmg9uty b73ngqbp">
+                        <g fill-rule="evenodd" transform="translate(-444 -156)">
+                            <g>
+                                <path
+                                    d="m96.968 22.425-.648.057a2.692 2.692 0 0 1-1.978-.625 2.69 2.69 0 0 1-.96-1.84L92.01 4.32a2.702 2.702 0 0 1 .79-2.156c.47-.472 1.111-.731 1.774-.79l2.58-.225a.498.498 0 0 1 .507.675 4.189 4.189 0 0 0-.251 1.11L96.017 18.85a4.206 4.206 0 0 0 .977 3.091s.459.364-.026.485m8.524-16.327a1.75 1.75 0 1 1-3.485.305 1.75 1.75 0 0 1 3.485-.305m5.85 3.011a.797.797 0 0 0-1.129-.093l-3.733 3.195a.545.545 0 0 0-.062.765l.837.993a.75.75 0 1 1-1.147.966l-2.502-2.981a.797.797 0 0 0-1.096-.12L99 14.5l-.5 4.25c-.06.674.326 2.19 1 2.25l11.916 1.166c.325.026 1-.039 1.25-.25.252-.21.89-.842.917-1.166l.833-8.084-3.073-3.557z"
+                                    transform="translate(352 156.5)"></path>
+                                <path fill-rule="nonzero"
+                                    d="m111.61 22.963-11.604-1.015a2.77 2.77 0 0 1-2.512-2.995L98.88 3.09A2.77 2.77 0 0 1 101.876.58l11.603 1.015a2.77 2.77 0 0 1 2.513 2.994l-1.388 15.862a2.77 2.77 0 0 1-2.994 2.513zm.13-1.494.082.004a1.27 1.27 0 0 0 1.287-1.154l1.388-15.862a1.27 1.27 0 0 0-1.148-1.37l-11.604-1.014a1.27 1.27 0 0 0-1.37 1.15l-1.387 15.86a1.27 1.27 0 0 0 1.149 1.37l11.603 1.016z"
+                                    transform="translate(352 156.5)"></path>
+                            </g>
+                        </g>
+                    </svg></button>
+            </div>
+            <hr style="border-color: rgba(255, 255, 255, 0.1);">
+            <div class="flex-item flex" id="search"
+                style="width: 100%;height: 50px;position: relative;padding-bottom: 20px;">
+                <input class="flex-item" type="search"
+                    style="background-color: #3a3b3c;border: none;direction: rtl;padding-right: 10px;font-size: medium;color: white;margin-top: 10px;"
+                    placeholder="أكتب تعليقا عاما...">
+                <input type="image" style="height: 70%;border-radius: 50%;margin-top: 10px;"
+                    src="Resources/me.jpg">
+                <button style="position: absolute;top: 15px;left: 40px;height: 30px;width: 30px;" class="circ"><svg
+                        style="vertical-align: middle;" viewBox="0 0 28 28" alt=""
+                        class="a8c37x1j ms05siws l3qrxjdp b7h9ocf4 q66pz984" fill="white" height="20" width="20">
+                        <path
+                            d="M14 2.042c6.76 0 12 4.952 12 11.64S20.76 25.322 14 25.322a13.091 13.091 0 0 1-3.474-.461.956 .956 0 0 0-.641.047L7.5 25.959a.961.961 0 0 1-1.348-.849l-.065-2.134a.957.957 0 0 0-.322-.684A11.389 11.389 0 0 1 2 13.682C2 6.994 7.24 2.042 14 2.042ZM6.794 17.086a.57.57 0 0 0 .827.758l3.786-2.874a.722.722 0 0 1 .868 0l2.8 2.1a1.8 1.8 0 0 0 2.6-.481l3.525-5.592a.57.57 0 0 0-.827-.758l-3.786 2.874a.722.722 0 0 1-.868 0l-2.8-2.1a1.8 1.8 0 0 0-2.6.481Z">
+                        </path>
+                    </svg></button>
+                <button style="position: absolute;top: 15px;left: 80px;height: 30px;width: 30px;" class="circ"><svg
+                        style="vertical-align: middle;" viewBox="0 0 28 28" alt=""
+                        class="a8c37x1j ms05siws l3qrxjdp b7h9ocf4 q66pz984" fill="white" height="20" width="20">
+                        <path
+                            d="M14 2.042c6.76 0 12 4.952 12 11.64S20.76 25.322 14 25.322a13.091 13.091 0 0 1-3.474-.461.956 .956 0 0 0-.641.047L7.5 25.959a.961.961 0 0 1-1.348-.849l-.065-2.134a.957.957 0 0 0-.322-.684A11.389 11.389 0 0 1 2 13.682C2 6.994 7.24 2.042 14 2.042ZM6.794 17.086a.57.57 0 0 0 .827.758l3.786-2.874a.722.722 0 0 1 .868 0l2.8 2.1a1.8 1.8 0 0 0 2.6-.481l3.525-5.592a.57.57 0 0 0-.827-.758l-3.786 2.874a.722.722 0 0 1-.868 0l-2.8-2.1a1.8 1.8 0 0 0-2.6.481Z">
+                        </path>
+                    </svg></button>
+                <button style="position: absolute;top: 15px;left: 120px;height: 30px;width: 30px;" class="circ"><svg
+                        style="vertical-align: middle;" viewBox="0 0 28 28" alt=""
+                        class="a8c37x1j ms05siws l3qrxjdp b7h9ocf4 q66pz984" fill="white" height="20" width="20">
+                        <path
+                            d="M14 2.042c6.76 0 12 4.952 12 11.64S20.76 25.322 14 25.322a13.091 13.091 0 0 1-3.474-.461.956 .956 0 0 0-.641.047L7.5 25.959a.961.961 0 0 1-1.348-.849l-.065-2.134a.957.957 0 0 0-.322-.684A11.389 11.389 0 0 1 2 13.682C2 6.994 7.24 2.042 14 2.042ZM6.794 17.086a.57.57 0 0 0 .827.758l3.786-2.874a.722.722 0 0 1 .868 0l2.8 2.1a1.8 1.8 0 0 0 2.6-.481l3.525-5.592a.57.57 0 0 0-.827-.758l-3.786 2.874a.722.722 0 0 1-.868 0l-2.8-2.1a1.8 1.8 0 0 0-2.6.481Z">
+                        </path>
+                    </svg></button>
+            </div>
+        </div>
+        <br>
+    </div>
+    <div class="right" style="width: 25%;">
+        <button class="dec"><span>Shadi B.Ibrahim</span><img
+                src="Resources/me.jpg"
+                alt=""></button>
+        <button class="dec"><span>الأصدقاء</span><img src="https://static.xx.fbcdn.net/rsrc.php/v3/y8/r/S0U5ECzYUSu.png"
+                alt=""></button>
+        <button class="dec"><span>المفضلة</span><img src="https://static.xx.fbcdn.net/rsrc.php/v3/yK/r/mAnT0r8GSOm.png"
+                alt=""></button>
+        <button class="dec"><span>المجموعات</span><img
+                src="https://static.xx.fbcdn.net/rsrc.php/v3/y5/r/PrjLkDYpYbH.png" alt=""></button>
+        <button class="dec"><span>العناصر المحفوظة</span><img
+                src="https://static.xx.fbcdn.net/rsrc.php/v3/yD/r/lVijPkTeN-r.png" alt=""></button>
+        <button class="dec"><span>Marketplace</span><img
+                src="https://static.xx.fbcdn.net/rsrc.php/v3/yU/r/D2y-jJ2C_hO.png" alt=""></button>
+        <button class="dec"><span>عرض المزيد</span><span id="las"><svg fill="currentColor" viewBox="0 0 16 16" width="1em" height="1em" class="a8c37x1j ms05siws l3qrxjdp b7h9ocf4 rs22bh7c jnigpg78 odw8uiq3"><g fill-rule="evenodd" transform="translate(-448 -544)"><path fill-rule="nonzero" d="M452.707 549.293a1 1 0 0 0-1.414 1.414l4 4a1 1 0 0 0 1.414 0l4-4a1 1 0 0 0-1.414-1.414L456 552.586l-3.293-3.293z"></path></g></svg></span></button>
+        <hr style="border-color: rgba(255, 255, 255, 0.1);">
+        <div class="abbr" style="width: 100%;height: 200px;">
+            <a id="curr" href="">تعديل</a><h3 style="float: right;">اختصاراتك</h3>
+            <button class="box" style="justify-content: flex-end;"><span><bdo dir="rtl">اي صفحة او لينك</bdo></span><img src="https://scontent.fcai15-1.fna.fbcdn.net/v/t1.6435-9/123735000_10160192511618906_2854392692040920912_n.jpg?stp=c8.0.50.50a_cp0_dst-jpg_p50x50&_nc_cat=107&ccb=1-5&_nc_sid=ac9ee4&_nc_ohc=WIVtBCzB5iIAX9iKEw1&_nc_ht=scontent.fcai15-1.fna&oh=00_AT8H-kFI-F-PmfbcouWDOpbEsGnbLN2uqcBYpsrSHeVtGA&oe=6297B947" alt="" style="height: 50px;"></button>
+            <button class="box" style="justify-content: flex-end;"><span><bdo dir="rtl">اي صفحة او لينك</bdo></span><img src="https://scontent.fcai15-1.fna.fbcdn.net/v/t1.6435-9/123735000_10160192511618906_2854392692040920912_n.jpg?stp=c8.0.50.50a_cp0_dst-jpg_p50x50&_nc_cat=107&ccb=1-5&_nc_sid=ac9ee4&_nc_ohc=WIVtBCzB5iIAX9iKEw1&_nc_ht=scontent.fcai15-1.fna&oh=00_AT8H-kFI-F-PmfbcouWDOpbEsGnbLN2uqcBYpsrSHeVtGA&oe=6297B947" alt="" style="height: 50px;"></button>
+            <button class="box" style="justify-content: flex-end;"><span><bdo dir="rtl">اي صفحة او لينك</bdo></span><img src="https://scontent.fcai15-1.fna.fbcdn.net/v/t1.6435-9/123735000_10160192511618906_2854392692040920912_n.jpg?stp=c8.0.50.50a_cp0_dst-jpg_p50x50&_nc_cat=107&ccb=1-5&_nc_sid=ac9ee4&_nc_ohc=WIVtBCzB5iIAX9iKEw1&_nc_ht=scontent.fcai15-1.fna&oh=00_AT8H-kFI-F-PmfbcouWDOpbEsGnbLN2uqcBYpsrSHeVtGA&oe=6297B947" alt="" style="height: 50px;"></button>
+            <button class="box" style="justify-content: flex-end;"><span><bdo dir="rtl">اي صفحة او لينك</bdo></span><img src="https://scontent.fcai15-1.fna.fbcdn.net/v/t1.6435-9/123735000_10160192511618906_2854392692040920912_n.jpg?stp=c8.0.50.50a_cp0_dst-jpg_p50x50&_nc_cat=107&ccb=1-5&_nc_sid=ac9ee4&_nc_ohc=WIVtBCzB5iIAX9iKEw1&_nc_ht=scontent.fcai15-1.fna&oh=00_AT8H-kFI-F-PmfbcouWDOpbEsGnbLN2uqcBYpsrSHeVtGA&oe=6297B947" alt="" style="height: 50px;"></button>
+            <button class="box" style="justify-content: flex-end;"><span><bdo dir="rtl">اي صفحة او لينك</bdo></span><img src="https://scontent.fcai15-1.fna.fbcdn.net/v/t1.6435-9/123735000_10160192511618906_2854392692040920912_n.jpg?stp=c8.0.50.50a_cp0_dst-jpg_p50x50&_nc_cat=107&ccb=1-5&_nc_sid=ac9ee4&_nc_ohc=WIVtBCzB5iIAX9iKEw1&_nc_ht=scontent.fcai15-1.fna&oh=00_AT8H-kFI-F-PmfbcouWDOpbEsGnbLN2uqcBYpsrSHeVtGA&oe=6297B947" alt="" style="height: 50px;"></button>
+            <button class="dec"><span>عرض المزيد</span><span id="las"><svg fill="currentColor" viewBox="0 0 16 16" width="1em" height="1em" class="a8c37x1j ms05siws l3qrxjdp b7h9ocf4 rs22bh7c jnigpg78 odw8uiq3"><g fill-rule="evenodd" transform="translate(-448 -544)"><path fill-rule="nonzero" d="M452.707 549.293a1 1 0 0 0-1.414 1.414l4 4a1 1 0 0 0 1.414 0l4-4a1 1 0 0 0-1.414-1.414L456 552.586l-3.293-3.293z"></path></g></svg></span></button>
+        </div>
+    </div>
+</body>
+
+</html>
